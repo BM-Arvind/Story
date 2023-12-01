@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    font-family: cursive;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+   
+
+}
+.full-container{
+    display: flex;
+    position: relative;
+    
+}
+.full-container .nav-container {
+ border:none ;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+margin-top: 100px;
+margin-left: 50px;
+ width: 25%;
+ height: 100vh;
+}
+
+.full-container .nav-container .hh{
+    padding: 10px;
+    color: grey;
+}
+
+.full-container .nav-container .hh:hover{
+    color: black;
+}
+#write{
+    
+    border: 2px solid black;
+    border-radius: 15px;
+    color:white;
+    background-color:black;
+    padding: 0% 5% ;
+    font-size: 14px;
+    text-align:center;
+    margin-top: 10px;
+    
+}
+
+.nav-container #write i{
+    color: black;
+}
+
+#write:hover{
+    font-size: 16px;
+}
+
+.full-container .main-cont{
+    margin-top: 100px; 
+}
+
+.full-container .main-cont .book-slider{
+    border: 0px solid; 
+    max-width: 600px;
+    
+}
+
+.full-container .main-cont .book-slider:first-child{
+    margin-bottom: 20px;
+  }
+
+
+.full-container .main-cont .book-slider .box{
+    border: 0px solid red;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px;
+
+   
+}
+
+.full-container .main-cont .book-slider .box .sliderimg{
+    height: 150px;
+}
+
+.full-container .main-cont .main-bottom{
+    max-width: 600px;
+    
+}
+
+.full-container .main-cont .main-bottom .paper{
+    display: flex;
+}
+
+.full-container .main-cont .main-bottom .paper .paper-pen .btn{
+    border: 2px solid black;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 17px;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    background: none;
+}
+
+
+.full-container .main-cont .main-bottom .paper .paper-pen .jane{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+.full-container .main-cont .main-bottom .paper .paper-pen{
+    margin-left: 20px;
+}
+
+.full-container .main-cont .main-bottom .paper .paper-pen .rating{
+   border: 0px solid;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.full-container .main-cont .main-bottom .paper .paper-pen .cooper{
+    border: 0px solid;
+    display: flex;
+     
+     align-items: center;
+ }
+
+
+.full-container .main-cont .main-bottom .paper .paper-pen .lo{
+    font-size: 14px;
+}
+
+
+.full-container .main-cont .main-bottom .paper .paper-img{
+    height: 268px;
+    width: 178px;
+}
+
+
+.full-container .recommended{
+    margin-top: 100px;
+}
+
+.full-container .recommended .reco .rec-text .cooper{
+    border: 0px solid;
+    display: flex;
+     
+     align-items: center;
+}
+
+.full-container .recommended .reco .rec-text .cooper .jane{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.full-container .recommended .reco {
+    display: flex;
+    margin: 10px;
+}
+
+.full-container .recommended .reco .reco-img .disney{
+    height: 60px;
+    width: 60px;
+    
+}
+
+.full-container .recommended .reco .rec-text .cooper{
+    font-size: 14px;
+    margin: 9px;
+}
+
+
+.full-container .recommended .reco .rec-text {
+    margin-left: 15px;
+
+}

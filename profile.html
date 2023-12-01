@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="book">
+        
+      </div>
+      <div class="nav-items">
+       
+        <a href="login.html">Login</a> 
+        <a href="signup.html">Signup</a>
+       
+        <a href="profile.html">Profile</a>
+      </div>
+    </nav>
+     <h1>Profile</h1>
+     <div class="container">
+      <h1>Welcome, <span id="userName"></span>!</h1>
+      <div>
+        <h2>Edit Profile</h2>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
+        <button id="saveProfile">Save</button>
+      </div>
+      <div>
+        <h2>Change Password</h2>
+        <label for="oldPassword">Old Password:</label>
+        <input type="password" id="oldPassword" required>
+        <label for="newPassword">New Password:</label>
+        <input type="password" id="newPassword" required>
+        <label for="confirmPassword">Confirm New Password:</label>
+        <input type="password" id="confirmPassword" required>
+        <button id="changePassword">Change Password</button>
+      </div>
+      <button id="logout">Logout</button>
+    </div>
+
+    <script src="profile.js"></script>
+  </body>
+</html>
